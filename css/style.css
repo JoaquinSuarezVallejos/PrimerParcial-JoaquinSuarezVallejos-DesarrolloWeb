@@ -33,31 +33,25 @@
 /* Menú de Navegación (NavBar) */
 /* ------------------------------------------------------------------------------------------------------------- */
 nav{
-  /* position: fixed; */
   width: 100%;
-  padding: 14px 0;
-  z-index: 998;
+  padding: 24px 0;
+  /* z-index: 998; */
   transition: all 0.3s ease;
   background: #ED9121;
 }
-/* nav.sticky{
-  background: #ED9121;
-  padding: 13px 0;
-} */
 nav .navbar{
-  width: 90%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: auto;
+  justify-content: center;
 }
-nav .navbar .logo a{
+nav .navbar .headerText a{
   font-weight: 750;
-  font-size: 35px;
+  font-size: 44px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
-nav.sticky .navbar .logo a{
+nav.sticky .navbar .headerText a{
   color: #fff;
 }
 nav .navbar .menu{
@@ -283,22 +277,22 @@ section .content{
   justify-content: space-between;
   align-items: center;
 }
-.about .content .titleNosotros{
+.about .content .fichaPersonal{
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   margin-top: -43px;
   margin-bottom: 55px;
 }
-.about .content .titleNosotros span{
+.about .content .fichaPersonal span{
   color: #fff;
   font-size: 38px;
   font-weight: 650;
   position: relative;
   padding-bottom: 2px;
 }
-.about .content .titleNosotros span::before,
-.about .content .titleNosotros span::after{
+.about .content .fichaPersonal span::before,
+.about .content .fichaPersonal span::after{
   content: '';
   position: absolute;
   height: 4px;
@@ -307,7 +301,7 @@ section .content{
   left: 0;
   bottom: 0;
 }
-.about .content .titleNosotros span::after{
+.about .content .fichaPersonal span::after{
   bottom: -9px;
   width: 70%;
   left: 50%;
@@ -327,7 +321,7 @@ section .content{
 .about-details .right{
   width: 55%;
 }
-.about-details .right .topicMision{
+.about-details .right .fichaTopic{
   color: #fff;
   font-size: 26px;
   font-weight: 600;
@@ -337,7 +331,7 @@ section .content{
   text-underline-offset: 6px;
   margin-bottom: 16px;
 }
-.about-details .right .textMision{
+.about-details .right .fichaText{
   color: #fff;
   font-size: 19px;
   font-weight: 400;
@@ -371,7 +365,7 @@ section .content{
 
 /* Sección: Servicio */
 /* ------------------------------------------------------------------------------------------------------------- */
-.services{
+/* .services{
   background-color: #1A1A1A;
 }
 .services .content .titleServicio{
@@ -417,7 +411,6 @@ section .content{
   justify-content: center;
   background-color: #333333;
   margin: 15px -48px;
-  /* width: calc(100% / 3 - 15px); */
   width: 420px;
   height: 255px;
   align-items: center;
@@ -481,13 +474,13 @@ section .content{
 }
 .services .boxes .box .textBoxes1 a:hover{
   color: #000;
-}
+} */
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
 /* Sección: Tecnologías */
 /* ------------------------------------------------------------------------------------------------------------- */
-.technologies{
+/* .technologies{
   background-color: #333333;
 }
 .technologies .content{
@@ -538,7 +531,6 @@ section .content{
   justify-content: center;
   background-color: #1A1A1A;
   margin: 15px -48px;
-  /* width: calc(100% / 3 - 15px); */
   width: 308px;
   height: 320px;
   align-items: center;
@@ -589,13 +581,13 @@ section .content{
   font-size: 18px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-}
+} */
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
 /* Sección: Contacto */
 /* ------------------------------------------------------------------------------------------------------------- */
-.contact{
+/* .contact{
   background-color: #1A1A1A;
 }
 .contact .content{
@@ -704,7 +696,7 @@ section .content{
   margin-bottom: 2px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
-}
+} */
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
@@ -777,7 +769,7 @@ footer .textFooter span{
   .about .left img{
     margin-left: 130px;
   }
-  .about-details .right .textMision{
+  .about-details .right .fichaText{
     font-size: 20px;
   }
   .services .boxes .box{
@@ -824,7 +816,7 @@ footer .textFooter span{
     margin-bottom: 5px;
     margin-left: 7px;
   }
-  .about-details .right .textMision{
+  .about-details .right .fichaText{
     font-size: 19px;
   }
   /* .services .boxes .box{
@@ -914,10 +906,10 @@ footer .textFooter span{
   .home .text-three{
     font-size: 35px;
   }
-  .about-details .right .topicMision{
+  .about-details .right .fichaTopic{
     text-align: center;
   }
-  .about-details .right .textMision{
+  .about-details .right .fichaText{
     text-align: center;
   }
   .about .about-details .experience{
