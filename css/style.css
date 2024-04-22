@@ -268,13 +268,13 @@ section{
   background-color: #333333;
 }
 section .content{
-  width: 80%;
+  width: 90%;
   margin: 40px auto;
   font-family: 'Poppins', sans-serif;
 }
 .about .about-details{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .about .content .fichaPersonal{
@@ -291,7 +291,7 @@ section .content{
   position: relative;
   padding-bottom: 2px;
 }
-.about .content .fichaPersonal span::before,
+/* .about .content .fichaPersonal span::before,
 .about .content .fichaPersonal span::after{
   content: '';
   position: absolute;
@@ -306,42 +306,44 @@ section .content{
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
-}
-.about .about-details .left{
+} */
+/* .about .about-details .left{
   width: 45%;
-}
+} */
 .about .left img{
-  width: 512px;
-  height: 341px;
+  width: 600px;
+  height: 800px;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 8px 8px 3px #191919;
   margin-bottom: 5px;
 }
-.about-details .right{
-  width: 55%;
-}
+/* .about-details .right{
+  width: 75%;
+} */
 .about-details .right .fichaTopic{
   color: #fff;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 600;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
-  text-underline-offset: 6px;
+  text-underline-offset: 7px;
   margin-bottom: 16px;
+  margin-left: 35px;
+  padding: 5px;
 }
 .about-details .right .fichaText{
   color: #fff;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400;
   margin-bottom: 20px;
 }
-.about-details .right p{
+/* .about-details .right p{
   text-align: justify;
   color: #fff;
-}
-.about .about-details .experience{
+} */
+/* .about .about-details .experience{
   display: flex;
   align-items: center;
   margin-top: -22px;
@@ -359,7 +361,7 @@ section .content{
   font-size: 20px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
-}
+} */
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
@@ -704,19 +706,17 @@ section .content{
 /* ------------------------------------------------------------------------------------------------------------- */
 footer{
   background: #ED9121;
-  padding: 15px 0;
+  padding: 24px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
-footer .textFooter{
-  font-size: 18px;
-  font-weight: 400;
-  color: #fff;
-}
 footer .textFooter span{
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 800;
   color: #fff;
+  /* justify-content: center;
+  align-items: center; */
+  margin-bottom: 3px;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
@@ -810,14 +810,14 @@ footer .textFooter span{
     margin-bottom: -50px;
   }
   .about .left img{
-    width: 512px;
-    height: 341px;
+    width: 600px;
+    height: 800px;
     object-fit: cover;
     margin-bottom: 5px;
     margin-left: 7px;
   }
   .about-details .right .fichaText{
-    font-size: 19px;
+    font-size: 20px;
   }
   /* .services .boxes .box{
     margin: 20px 0;
