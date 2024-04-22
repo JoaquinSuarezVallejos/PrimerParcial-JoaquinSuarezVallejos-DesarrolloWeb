@@ -1,0 +1,1002 @@
+/* Link a Google Font - Poppins & Ubuntu */
+/* ------------------------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Barra de Desplazamiento (Custom Scroll Bar) */
+/* ------------------------------------------------------------------------------------------------------------- */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #4d4d4d;
+}
+::-webkit-scrollbar-thumb {
+    background: #F2B263;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #ED9121;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Menú de Navegación (NavBar) */
+/* ------------------------------------------------------------------------------------------------------------- */
+nav{
+  /* position: fixed; */
+  width: 100%;
+  padding: 14px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+  background: #ED9121;
+}
+/* nav.sticky{
+  background: #ED9121;
+  padding: 13px 0;
+} */
+nav .navbar{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav .navbar .logo a{
+  font-weight: 750;
+  font-size: 35px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+nav.sticky .navbar .logo a{
+  color: #fff;
+}
+nav .navbar .menu{
+  display: flex;
+  position: relative;
+}
+nav .navbar .menu li{
+  list-style: none;
+  margin: 0 9px;
+}
+.navbar .menu .navbarHome-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar .menu .navbarHome-btn:hover{
+  color: #000;
+}
+nav.sticky .menu .navbarHome-btn:hover{
+  color: #000;
+}
+.navbar .menu .navbarAbout-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar .menu .navbarAbout-btn:hover{
+  color: #000;
+}
+nav.sticky .menu .navbarAbout-btn:hover{
+  color: #000;
+}
+.navbar .menu .navbarService-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar .menu .navbarService-btn:hover{
+  color: #000;
+}
+nav.sticky .menu .navbarService-btn:hover{
+  color: #000;
+}
+.navbar .menu .navbarTechnologies-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar .menu .navbarTechnologies-btn:hover{
+  color: #000;
+}
+nav.sticky .menu .navbarTechnologies-btn:hover{
+  color: #000;
+}
+.navbar .menu .navbarContact-btn{
+  background: none;
+	color: inherit;
+	border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar .menu .navbarContact-btn:hover{
+  color: #000;
+}
+nav.sticky .menu .navbarContact-btn:hover{
+  color: #000;
+}
+.navbar .WhatsApp-navbar{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.4s ease;
+}
+.navbar .WhatsApp-navbar:hover{
+  color: #000;
+  cursor: pointer;
+}
+.navbar .WhatsApp-navbar i{
+  margin-right: 2px;
+}
+nav.sticky .WhatsApp-navbar{
+  color: #fff;
+}
+nav.sticky .WhatsApp-navbar:hover{
+  color: #000;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Sección: Inicio */
+/* ------------------------------------------------------------------------------------------------------------- */
+.home{
+  height: 100vh;
+  width: 100%;
+  background-color: #1a1a1a;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: -80px;
+}
+.home .home-content{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home .ChargeFix_Logo{
+  display: flex;
+  float: right;
+  height: 400px;
+  margin-top: -40px;
+  margin-right: 6px;
+}
+.home .text-one{
+  color: #fff;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: -6px;
+  margin-top: -70px;
+}
+.home .text-two{
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #ED9121;
+}
+.home .text-three{
+  font-size: 30px;
+  font-weight: 500;
+  padding: 20px 0px;
+  margin-left: 1px;
+  color: #fff;
+}
+.home .text-four{
+  font-size: 30px;
+  font-weight: 500;
+  margin: -14px 0px;
+  margin-left: 1px;
+  color: #fff;
+}
+.home .contact-us-btn .contact-us-icon{
+  display: inline-flex;
+  margin-right: 4px;
+}
+.home .contact-us-btn{
+  margin-top: 48px;
+  margin-bottom: -20px;
+  margin-left: 1px;
+}
+.home .contact-us-btn button{
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 28px;
+  font-weight: 600;
+  background: #ED9121;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.4s ease;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 1px;
+}
+.home .contact-us-btn span{
+  color: #fff;
+}
+.home .contact-us-btn button:hover{
+  border-color: #ED9121;
+  background-color: #1A1A1A;
+  color: #ED9121;
+  transform: scale(1.02);
+  margin-left: 4px;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Sección: Nosotros */
+/* ------------------------------------------------------------------------------------------------------------- */
+section{
+  padding-top: 40px;
+  padding-bottom: 3px;
+  background-color: #333333;
+}
+section .content{
+  width: 80%;
+  margin: 40px auto;
+  font-family: 'Poppins', sans-serif;
+}
+.about .about-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .content .titleNosotros{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -43px;
+  margin-bottom: 55px;
+}
+.about .content .titleNosotros span{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 650;
+  position: relative;
+  padding-bottom: 2px;
+}
+.about .content .titleNosotros span::before,
+.about .content .titleNosotros span::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #ED9121;
+  left: 0;
+  bottom: 0;
+}
+.about .content .titleNosotros span::after{
+  bottom: -9px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.about .about-details .left{
+  width: 45%;
+}
+.about .left img{
+  width: 512px;
+  height: 341px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 8px 8px 3px #191919;
+  margin-bottom: 5px;
+}
+.about-details .right{
+  width: 55%;
+}
+.about-details .right .topicMision{
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+  margin-bottom: 16px;
+}
+.about-details .right .textMision{
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.about-details .right p{
+  text-align: justify;
+  color: #fff;
+}
+.about .about-details .experience{
+  display: flex;
+  align-items: center;
+  margin-top: -22px;
+  margin-bottom: -12px;
+}
+.about-details .experience .num{
+  color: #ED9121;
+  font-size: 70px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.about-details .experience .exp{
+  color: #fff;
+  margin-left: 13px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Sección: Servicio */
+/* ------------------------------------------------------------------------------------------------------------- */
+.services{
+  background-color: #1A1A1A;
+}
+.services .content .titleServicio{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -40px;
+  margin-bottom: 26px;
+}
+.services .content .titleServicio span{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 650;
+  position: relative;
+  padding-bottom: 2px;
+}
+.services .content .titleServicio span::before,
+.services .content .titleServicio span::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #ED9121;
+  left: 0;
+  bottom: 0;
+}
+.services .content .titleServicio span::after{
+  bottom: -9px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.services .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 44px;
+}
+.services .boxes .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333333;
+  margin: 15px -48px;
+  /* width: calc(100% / 3 - 15px); */
+  width: 420px;
+  height: 255px;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  padding: 20px 15px;
+  box-shadow: 6px 6px 0px 0px #999999;
+  cursor: default;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover{
+  background: #ED9121;
+  color: #fff;
+}
+.services .boxes .box .icon{
+  height: 60px;
+  width: 60px;
+  background: #ED9121;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  color: #fff;
+  margin: 0 auto -1px auto;
+  transition: all 0.4s ease;
+}
+.boxes .box:hover .icon{
+  background-color: #fff;
+  color: #ED9121;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.services .boxes .box:hover .topic,
+.services .boxes .box:hover p{
+  color: #fff;
+}
+.services .boxes .box .topicBoxes1{
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  font-family: 'Poppins', sans-serif;
+}
+.services .boxes .box .textBoxes1{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.textBoxesAlt1{
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+.services .boxes .box .textBoxes1 a{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.services .boxes .box .textBoxes1 a:hover{
+  color: #000;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Sección: Tecnologías */
+/* ------------------------------------------------------------------------------------------------------------- */
+.technologies{
+  background-color: #333333;
+}
+.technologies .content{
+  padding: 40px 0;
+}
+.technologies .content .titleTecnologias{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -82px;
+  margin-bottom: 38px;
+}
+.technologies .content .titleTecnologias span{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 650;
+  text-align: center;
+  position: relative;
+  padding-bottom: 7px;
+}
+.technologies .content .titleTecnologias span::before,
+.technologies .content .titleTecnologias span::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #ED9121;
+  left: 0;
+  bottom: 0;
+}
+.technologies .content .titleTecnologias span::after{
+  bottom: -9px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.technologies .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: -38px;
+}
+.technologies .boxes .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1A1A1A;
+  margin: 15px -48px;
+  /* width: calc(100% / 3 - 15px); */
+  width: 308px;
+  height: 320px;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  padding: 5px 15px;
+  box-shadow: 6px 6px 0px 0px #999999;
+  cursor: default;
+  transition: all 0.4s ease;
+}
+.technologies .boxes .box:hover{
+  background: #ED9121;
+  color: #fff;
+}
+.technologies .boxes .box .icon{
+  height: 60px;
+  width: 60px;
+  background: #ED9121;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  color: #fff;
+  margin: 0 auto -1px auto;
+  transition: all 0.4s ease;
+}
+.technologies .box:hover .icon{
+  background-color: #fff;
+  color: #ED9121;
+}
+.technologies .boxes .box:hover .topic,
+.technologies .boxes .box:hover p{
+  color: #fff;
+  transition: all 0.4s ease;
+}
+.technologies .boxes .box:hover .topic,
+.technologies .boxes .box:hover p{
+  color: #fff;
+}
+.technologies .boxes .box .topicBoxes2{
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  font-family: 'Poppins', sans-serif;
+}
+.technologies .boxes .box .textBoxes2{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Sección: Contacto */
+/* ------------------------------------------------------------------------------------------------------------- */
+.contact{
+  background-color: #1A1A1A;
+}
+.contact .content{
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.contact .text{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  color: #fff;
+}
+.contact .content .titleContacto{
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -42px;
+  margin-bottom: 25px;
+}
+.contact .content .titleContacto span{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 650;
+  position: relative;
+  padding-bottom: 8px;
+}
+.contact .content .titleContacto span::before,
+.contact .content .titleContacto span::after{
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #ED9121;
+  left: 0;
+  bottom: 0;
+}
+.contact .content .titleContacto span::after{
+  bottom: -9px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contact .topicContacto{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+.contact .textContacto{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+}
+.contact .contactButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contactButtons .contactIcons{
+  display: inline-flex;
+  margin-right: 2px;
+}
+.contact .contactButtons button{
+  outline: none;
+  padding: 8px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;  
+  font-weight: 600;
+  background: #ED9121;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.contact .contactButtons button:hover{
+  border-color: #ED9121;
+  background-color: #1A1A1A;
+  color: #ED9121;
+  transform: scale(1.02);
+}
+.contact .contactButtons .btnEmail a{
+  color: #fff;
+}
+.contact .contactButtons .btnEmail a:hover{
+  color: #fff;
+}
+.contact .contactButtons .btnWhatsApp{
+  background-color: #1DAA61;
+}
+.contact .contactButtons .btnWhatsApp a{
+  color: #fff;
+}
+.contact .contactButtons .btnWhatsApp:hover{
+  border-color: #1DAA61;
+  background-color: #1A1A1A;
+  color: #1DAA61;
+}
+.contact .text-ubicacion{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 2px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Footer */
+/* ------------------------------------------------------------------------------------------------------------- */
+footer{
+  background: #ED9121;
+  padding: 15px 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+footer .textFooter{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+footer .textFooter span{
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Flecha Scroll Up (Volver a Inicio) */
+/* ------------------------------------------------------------------------------------------------------------- */
+.scroll-up-button a{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: #fff;
+  background: #ED9121;
+  padding: 7px 12px;;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 2px #191919;
+  display: none;
+  transition: all 0.4s ease;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+/* Responsive Media Query */
+/* ------------------------------------------------------------------------------------------------------------- */
+@media (max-width: 1920px) {
+  .home{
+    margin-bottom: -80px;
+  }
+  .home .ChargeFix_Logo{
+    height: 500px;
+    margin-top: -120px;
+  }
+  .home .text-one{
+    font-size: 100px;
+    margin-top: -140px;
+  }
+  .home .text-two{
+    font-size: 90px;
+  }
+  .home .text-three{
+    font-size: 40px;
+  }
+  .home .text-four{
+    font-size: 40px;
+  }
+  .home .contact-us-btn button{
+    font-size: 36px;
+  }
+  .about .left img{
+    margin-left: 130px;
+  }
+  .about-details .right .textMision{
+    font-size: 20px;
+  }
+  .services .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+  }
+  .technologies .boxes{
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 1600px) {
+  .home{
+    margin-bottom: -80px;
+  }
+  .home .ChargeFix_Logo{
+    display: flex;
+    float: right;
+    height: 400px;
+    margin-top: -140px;
+    margin-right: 6px;
+    margin-bottom: -30px;
+  }
+  .home .text-one{
+    font-size: 80px;
+    margin-top: -160px;
+  }
+  .home .text-two{
+    font-size: 70px;
+  }
+  .home .text-three{
+    font-size: 30px;
+  }
+  .home .text-four{
+    font-size: 30px;
+  }
+  .home .contact-us-btn button{
+    font-size: 28px;
+    margin-bottom: -50px;
+  }
+  .about .left img{
+    width: 512px;
+    height: 341px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-left: 7px;
+  }
+  .about-details .right .textMision{
+    font-size: 19px;
+  }
+  /* .services .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 3 - 20px);
+  } */
+  .technologies .boxes{
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1190px) {
+  section .content{
+    width: 85%;
+  }
+}
+@media (max-width: 1000px) {
+  .about .about-details{
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about .about-details .left{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .about-details .right{
+    width: 90%;
+    margin: 40px 0;
+  }
+  .services .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 2 - 20px);
+  }
+}
+@media (max-width: 900px) {
+  .about .left img{
+    height: 350px;
+    width: 350px;
+  }
+}
+@media (max-width: 750px) {
+  .home .ChargeFix_Logo{
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  nav .navbar{
+    width: 90%;
+  }
+  nav .navbar .menu{
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background: #fff;
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    padding-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  .navbar.active .menu{
+    left: 0;
+  }
+  nav .navbar .menu a{
+    font-size: 23px;
+    display: block;
+    color: #fff;
+    margin: 10px 0;
+  }
+  nav.sticky .menu a:hover{
+    color: #ED9121;
+  }
+  nav .navbar .WhatsApp-navbar{
+    display: none;
+  }
+  nav .menu-btn,
+  .navbar .menu .cancel-btn{
+    display: block;
+  }
+  .home .text-two{
+    font-size: 65px;
+  }
+  .home .text-three{
+    font-size: 35px;
+  }
+  .about-details .right .topicMision{
+    text-align: center;
+  }
+  .about-details .right .textMision{
+    text-align: center;
+  }
+  .about .about-details .experience{
+    justify-content: center;
+    margin-bottom: -50px;
+  }
+  .technologies .technologies-details{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .technologies .text{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .technologies .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .services .boxes .box{
+    margin: 20px 0;
+    width: 100%;
+  }
+}
+@media (max-width: 500px){
+  .home .text-one{
+    font-size: 58px;
+    text-align: center;
+    margin-bottom: 8px;
+    /* margin-top: -150px; */
+  }
+  .home .text-two{
+    font-size: 52px;
+    text-align: center;
+  }
+  .home .text-three{
+    font-size: 28px;
+    font-weight: 450;
+    text-align: center;
+  }
+  .home .text-four{
+    font-size: 28px;
+    font-weight: 450;
+    text-align: center;
+  }
+  .home .contact-us-btn button{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .home .contact-us-btn button:hover{
+    border-color: #ED9121;
+    background-color: #1A1A1A;
+    color: #ED9121;
+    transform: scale(1.02);
+    margin: 0 auto;
+  }
+  .about .left img{
+    width: 380px;
+    height: 230px;
+    object-fit: cover;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .services .boxes .box .textBoxesAlt1{
+    font-size: 16px;
+  }
+  .technologies-details .boxes .per{
+    font-size: 50px;
+    color: #ED9121;
+  }
+  .scroll-up-button{
+    display: none;
+  }
+}
+/* ------------------------------------------------------------------------------------------------------------- */
