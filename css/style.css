@@ -172,7 +172,7 @@ nav.sticky .WhatsApp-navbar:hover{
 
 /* Sección: Inicio */
 /* ------------------------------------------------------------------------------------------------------------- */
-.home{
+/* .home{
   height: 100vh;
   width: 100%;
   background-color: #1a1a1a;
@@ -256,11 +256,11 @@ nav.sticky .WhatsApp-navbar:hover{
   color: #ED9121;
   transform: scale(1.02);
   margin-left: 4px;
-}
+} */
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
-/* Sección: Nosotros */
+/* Sección: Ficha Personal */
 /* ------------------------------------------------------------------------------------------------------------- */
 section{
   padding-top: 40px;
@@ -291,7 +291,7 @@ section .content{
   position: relative;
   padding-bottom: 2px;
 }
-/* .about .content .fichaPersonal span::before,
+.about .content .fichaPersonal span::before,
 .about .content .fichaPersonal span::after{
   content: '';
   position: absolute;
@@ -306,7 +306,7 @@ section .content{
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
-} */
+}
 /* .about .about-details .left{
   width: 45%;
 } */
