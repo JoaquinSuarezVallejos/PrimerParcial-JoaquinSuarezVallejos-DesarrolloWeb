@@ -170,17 +170,20 @@ section .content{
 /* ------------------------------------------------------------------------------------------------------------- */
 footer{
   background: #ED9121;
-  padding: 24px 0;
+  padding: 16px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
-footer .textFooter span{
-  font-size: 30px;
-  font-weight: 800;
-  color: #fff;
-  /* justify-content: center;
-  align-items: center; */
-  margin-bottom: 3px;
+footer .imgFooter{
+  width: 120px;
+  height: 46px;
+  margin: 0 auto;
+  justify-content: center;
+}
+footer .imgFooter img{
+  width: 120px;
+  height: 46px;
+  margin-top: 1px;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
