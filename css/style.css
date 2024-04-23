@@ -119,10 +119,10 @@ section .content{
   color: #fff;
   font-size: 22px;
   font-weight: 600;
-  text-decoration: underline;
+  /* text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
-  text-underline-offset: 7px;
+  text-underline-offset: 7px; */
 }
 .about-details .right .fichaText{
   color: #fff;
@@ -130,10 +130,13 @@ section .content{
   font-weight: 400;
   margin-bottom: 20px;
 }
-/* .about-details .right p{
-  text-align: justify;
+.about-details .right .ItemLink .fichaText a{
   color: #fff;
-} */
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
 /* .about .about-details .experience{
   display: flex;
   align-items: center;
