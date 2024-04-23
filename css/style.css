@@ -253,13 +253,6 @@ footer .imgFooter img{
   }
 }
 
-@media (max-width: 900px) {
-  .about .left img{
-    height: 350px;
-    width: 350px;
-  }
-}
-
 @media (max-width: 750px) {
   ::-webkit-scrollbar {
     display: none;
@@ -276,6 +269,13 @@ footer .imgFooter img{
   .about .about-details .experience{
     justify-content: center;
     margin-bottom: -50px;
+  }
+}
+
+@media (max-width: 730px) {
+  .about .left img{
+    width: 458px;
+    height: 566px;
   }
 }
 
@@ -299,8 +299,8 @@ footer .imgFooter img{
 
 @media (max-width: 500px) {
   .about .left img{
-    width: 380px;
-    height: 230px;
+    width: 305px;
+    height: 377px;
     object-fit: cover;
     margin: 0 auto;
   }
