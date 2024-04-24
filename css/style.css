@@ -10,6 +10,9 @@
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 
+.body{
+  background-color: #333333;
+}
 
 /* Barra de Desplazamiento (Custom Scroll Bar) */
 /* ------------------------------------------------------------------------------------------------------------- */
@@ -74,8 +77,8 @@ section .content{
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
-  margin-top: -43px;
-  margin-bottom: 55px;
+  margin-top: -46px;
+  margin-bottom: 45px;
 }
 .about .content .fichaPersonal span{
   color: #fff;
@@ -116,19 +119,19 @@ section .content{
 }
 .about-details .right .fichaTopic{
   color: #ED9121;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 650;
 }
 .about-details .right .fichaText{
   color: #fff;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 450;
 }
 .about-details .right .Item{
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .about-details .right .ItemLink{
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .about-details .right .ItemLink .fichaText a{
   color: #fff;
@@ -144,25 +147,6 @@ section .content{
   text-decoration-thickness: 3px;
   text-underline-offset: 4px;
 }
-/* .about .about-details .experience{
-  display: flex;
-  align-items: center;
-  margin-top: -22px;
-  margin-bottom: -12px;
-}
-.about-details .experience .num{
-  color: #ED9121;
-  font-size: 70px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-}
-.about-details .experience .exp{
-  color: #fff;
-  margin-left: 13px;
-  font-size: 20px;
-  font-weight: 500;
-  font-family: 'Poppins', sans-serif;
-} */
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
@@ -170,9 +154,10 @@ section .content{
 /* ------------------------------------------------------------------------------------------------------------- */
 footer{
   background: #ED9121;
-  padding: 16px 0;
+  padding: 16px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  /* margin-top: 10px; */
 }
 footer .imgFooter{
   width: 120px;
@@ -185,25 +170,6 @@ footer .imgFooter img{
   height: 46px;
   margin-top: 1px;
 }
-/* ------------------------------------------------------------------------------------------------------------- */
-
-
-/* Flecha Scroll Up (Volver a Inicio) */
-/* ------------------------------------------------------------------------------------------------------------- */
-/* .scroll-up-button a{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  cursor: pointer;
-  color: #fff;
-  background: #ED9121;
-  padding: 7px 12px;;
-  font-size: 18px;
-  border-radius: 6px;
-  box-shadow: 3px 3px 2px #191919;
-  display: none;
-  transition: all 0.4s ease;
-} */
 /* ------------------------------------------------------------------------------------------------------------- */
 
 
@@ -229,13 +195,49 @@ footer .imgFooter img{
   }
 }
 
+@media (max-width: 1200px) {
+  .about-details .right .fichaTopic{
+    font-size: 22px;
+  }
+  .about-details .right .fichaText{
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 1190px) {
   section .content{
     width: 85%;
   }
 }
 
+@media (max-width: 1150px) {
+  .about-details .right .fichaTopic{
+    font-size: 20px;
+  }
+  .about-details .right .fichaText{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .about-details .right .fichaTopic{
+    font-size: 19px;
+  }
+  .about-details .right .fichaText{
+    font-size: 17px;
+  }
+}
+
 @media (max-width: 1000px) {
+  .about-details .right .fichaTopic{
+    font-size: 18px;
+  }
+  .about-details .right .fichaText{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 950px) {
   .about .about-details{
     justify-content: center;
     flex-direction: column;
@@ -247,9 +249,15 @@ footer .imgFooter img{
   }
   .about-details .right{
     width: 65%;
-    margin: 40px 0;
+    margin-top: 40px;
     padding-left: 0px;
     justify-content: center;
+  }
+  .about-details .right .fichaTopic{
+    font-size: 24px;
+  }
+  .about-details .right .fichaText{
+    font-size: 22px;
   }
 }
 
@@ -266,10 +274,6 @@ footer .imgFooter img{
   .about-details .right .fichaText{
     text-align: center;
   }
-  .about .about-details .experience{
-    justify-content: center;
-    margin-bottom: -50px;
-  }
 }
 
 @media (max-width: 730px) {
@@ -283,6 +287,10 @@ footer .imgFooter img{
   nav .navbar .headerText a{
     font-size: 40px;
   }
+  .about-details .right{
+    width: 75%;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 580px) {
@@ -295,6 +303,10 @@ footer .imgFooter img{
   nav .navbar .headerText a{
     font-size: 32px;
   }
+  .about-details .right{
+    width: 80%;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 500px) {
@@ -304,9 +316,13 @@ footer .imgFooter img{
     object-fit: cover;
     margin: 0 auto;
   }
-  /* .scroll-up-button{
-    display: none;
-  } */
+  .about-details .right{
+    width: 70%;
+    justify-content: center;
+  }
+  .about .content .fichaPersonal span{
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 470px) {
@@ -318,6 +334,10 @@ footer .imgFooter img{
 @media (max-width: 435px) {
   nav .navbar .headerText a{
     font-size: 28px;
+  }
+  .about-details .right{
+    width: 80%;
+    justify-content: center;
   }
 }
 
@@ -333,9 +353,21 @@ footer .imgFooter img{
   }
 }
 
+@media (max-width: 365px) {
+  .about .content .fichaPersonal span{
+    font-size: 34px;
+  }
+}
+
 @media (max-width: 355px) {
   nav .navbar .headerText a{
     font-size: 22px;
+  }
+  .about-details .right .fichaTopic{
+    font-size: 19px;
+  }
+  .about-details .right .fichaText{
+    font-size: 17px;
   }
 }
 
