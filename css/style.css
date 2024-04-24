@@ -77,8 +77,8 @@ section .content{
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
-  margin-top: -46px;
-  margin-bottom: 45px;
+  margin-top: -52px;
+  margin-bottom: 43px;
 }
 .about .content .fichaPersonal span{
   color: #fff;
@@ -259,6 +259,9 @@ footer .imgFooter img{
   .about-details .right .fichaText{
     font-size: 22px;
   }
+  .about .left img{
+    margin-bottom: -3px;
+  }
 }
 
 @media (max-width: 750px) {
@@ -315,6 +318,7 @@ footer .imgFooter img{
     height: 377px;
     object-fit: cover;
     margin: 0 auto;
+    margin-bottom: -3px;
   }
   .about-details .right{
     width: 70%;
@@ -345,6 +349,9 @@ footer .imgFooter img{
   nav .navbar .headerText a{
     font-size: 26px;
   }
+  .about .left img{
+    margin-bottom: -5px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -357,6 +364,9 @@ footer .imgFooter img{
   .about .content .fichaPersonal span{
     font-size: 34px;
   }
+  .about .left img{
+    margin-bottom: -5px;
+  }
 }
 
 @media (max-width: 355px) {
@@ -368,6 +378,12 @@ footer .imgFooter img{
   }
   .about-details .right .fichaText{
     font-size: 17px;
+  }
+}
+
+@media (max-width: 335px) {
+  .about .content .fichaPersonal span{
+    font-size: 31px;
   }
 }
 
